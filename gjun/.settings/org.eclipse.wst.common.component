@@ -2,16 +2,15 @@
                 
     
     
-    <wb-module deploy-name="campusAdmin">
+    <wb-module deploy-name="campusAdmin-0.0.1-SNAPSHOT">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/campusAdmin/src/main/java"/>
-        <wb-resource deploy-path="/" source-path="/campusAdmin/WebContent"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/campusAdmin/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/" source-path="/campusAdmin/src/main/webapp"/>
         <wb-resource deploy-path="/" source-path="/campusAdmin/target/m2e-wtp/web-resources"/>
-                                
-        
-        
-        <property name="java-output-path" value="/campusAdmin/bin"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="campusAdmin"/>
+        <property name="java-output-path" value="/campusAdmin/build/classes"/>
                             
     
     
