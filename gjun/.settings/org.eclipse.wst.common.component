@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="campusAdmin">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/campusAdmin/src/main/java"/>
+        <wb-resource deploy-path="/" source-path="/campusAdmin/WebContent"/>
+        <wb-resource deploy-path="/" source-path="/campusAdmin/src/main/webapp"/>
+        <wb-resource deploy-path="/" source-path="/campusAdmin/target/m2e-wtp/web-resources"/>
+                                
+        
+        
+        <property name="java-output-path" value="/campusAdmin/bin"/>
+        <property name="context-root" value="campusAdmin"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
